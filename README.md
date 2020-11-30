@@ -1,5 +1,8 @@
 # Simplest samba server
-The simples samba server without complex configuration
+
+Still in development !!!
+
+The simplest samba server without complex configuration
 
 There are no permissions, only a folder is shared with full access for any user.
 Of course it is not a good idea for a network open to the public, but it is convenient to easily configure a shared folder in a home environment.

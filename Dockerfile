@@ -4,7 +4,7 @@ LABEL MAINTAINER="Peter Winter <peter@pwntr.com>" \
     Version="1.0.2"
 
 # upgrade base system and install samba and supervisord
-RUN apk --no-cache add samba supervisor
+RUN apk --no-cache add samba supervisor bash
 
 # create a dir for the config and the share
 RUN mkdir /config /shared

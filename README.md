@@ -11,8 +11,8 @@ Of course it is not a good idea for a network open to the public, but it is conv
 It is only necessary to open the necessary ports and indicate the folder that I want to share (for example /home/myuser/shared):
 
 ```
-docker run -dti --name samba /
-	-p 137:137 -p 138:138 -p 139:139 -p 445:445 /
+docker run -dti --name samba \
+	-p 137:137 -p 138:138 -p 139:139 -p 445:445 \
 	-v /home/myuser/shared:/shared adanton/samba
 ```
 

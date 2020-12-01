@@ -2,7 +2,7 @@ FROM alpine:latest
 LABEL MAINTAINER="Adán Antón  <adanton@gmail.com>" \
     Description="Simple and lightweight Samba docker container, based on Alpine Linux." \
     Version="1.0"
-
+# For armv7
 # upgrade base system and install samba and supervisord
 RUN apk --no-cache add samba supervisor bash
 

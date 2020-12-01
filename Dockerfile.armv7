@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM arm32v7/alpine
 LABEL MAINTAINER="Adán Antón  <adanton@gmail.com>" \
     Description="Simple and lightweight Samba docker container, based on Alpine Linux." \
     Version="1.0"
